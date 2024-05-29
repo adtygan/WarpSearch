@@ -5,7 +5,7 @@
 [![Tests](https://github.com/adtygan/warpsearch/actions/workflows/test.yml/badge.svg)](https://github.com/adtygan/warpsearch/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/adtygan/warpsearch/blob/master/LICENSE)
 
-A local image search engine
+Your smol and local image search engine
 
 ## Installation
 
