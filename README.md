@@ -1,5 +1,10 @@
 # warpsearch
 
+<p align="left">
+  <img src="logo.png" width="300">
+</p>
+
+
 [![PyPI](https://img.shields.io/pypi/v/warpsearch.svg)](https://pypi.org/project/warpsearch/)
 [![Changelog](https://img.shields.io/github/v/release/adtygan/warpsearch?include_prereleases&label=changelog)](https://github.com/adtygan/warpsearch/releases)
 [![Tests](https://github.com/adtygan/warpsearch/actions/workflows/test.yml/badge.svg)](https://github.com/adtygan/warpsearch/actions/workflows/test.yml)
