@@ -10,7 +10,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "true"
 @click.group()
 @click.version_option()
 def cli():
-    "A local image search engine"
+    "Your smol and local image search engine"
 
 @cli.command(name="setup")
 @click.argument("folder_path")
