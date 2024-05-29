@@ -1,0 +1,26 @@
+[project]
+name = "warpsearch"
+version = "0.1"
+description = "A local image search engine"
+readme = "README.md"
+authors = [{name = "Aditya Ganesh Kumar"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/adtygan/warpsearch"
+Changelog = "https://github.com/adtygan/warpsearch/releases"
+Issues = "https://github.com/adtygan/warpsearch/issues"
+CI = "https://github.com/adtygan/warpsearch/actions"
+
+[project.entry-points.console_scripts]
+warpsearch = "warpsearch.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
