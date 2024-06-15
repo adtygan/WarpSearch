@@ -1,4 +1,3 @@
-# https://www.datacamp.com/tutorial/chromadb-tutorial-step-by-step-guide
 import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
