@@ -5,7 +5,7 @@ description = "Your smol and local image search engine"
 readme = "README.md"
 authors = [{name = "Aditya Ganesh Kumar"}]
 license = {text = "Apache-2.0"}
-requires-python = ">=3.8"
+requires-python = "3.8"
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
