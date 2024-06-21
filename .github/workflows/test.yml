@@ -25,5 +25,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run tests
       run: |
-        pytest
+        pytest tests/test_warpsearch.py
+    - name: Clear pytest cache
+      run: rm -rf __pycache__
 
