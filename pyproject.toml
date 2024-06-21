@@ -22,5 +22,11 @@ CI = "https://github.com/adtygan/warpsearch/actions"
 [project.entry-points.console_scripts]
 warpsearch = "warpsearch.cli:cli"
 
+# fixes error of blip-caption
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::FutureWarning:huggingface_hub.file_download",
+]
+
 [project.optional-dependencies]
 test = ["pytest"]
