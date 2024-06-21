@@ -77,6 +77,7 @@ class VectorStore:
             log_file.write("\n\n\n------------------\n[All entries purged]\n------------------\n\n\n")
     
 if __name__ == "__main__":
+
     parser = argparse.ArgumentParser(description='Add an image to the ChromaDB collection.')
     parser.add_argument('image_path', type=str, help='The path to the image file.')
     args = parser.parse_args()
